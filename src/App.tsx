@@ -41,7 +41,9 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto p-4 border rounded shadow">
+    <div className="pt-[10vh]">
+
+    <form onSubmit={handleSubmit} className="max-w-md mx-auto p-4 border rounded shadow ">
       <div className="mb-4">
         <label className="block text-sm font-medium">Name:</label>
         <input
@@ -81,5 +83,7 @@ export default function ContactForm() {
         Submit
       </button>
     </form>
+    </div>
+
   );
 }
